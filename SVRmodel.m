@@ -1,5 +1,8 @@
 function model= SVRmodel(X,Y,Hyperparameters,lb,ub,Covariance)   
 %Training Bayesian least square SVR model
+
+% Based on paper: Kai Cheng, Zhenzhou Lu,Adaptive Bayesian support vector regression model for structural reliability analysis, Reliability Engineering & System Safety, Volume 206, 2021, 107286,
+
 [m n] = size(X);            % number of design sites and their dimension
 
 MInput = mean(X);   SInput= std(X); 
