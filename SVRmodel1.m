@@ -1,5 +1,9 @@
 function model= SVRmodel1(X,Y,Hyperparameters,lb,ub,Covariance)   
+
 %Training Bayesian epsilon-SVR model including bias b
+
+% Based on paper: Kai Cheng, Zhenzhou Lu,Adaptive Bayesian support vector regression model for structural reliability analysis, Reliability Engineering & System Safety, Volume 206, 2021, 107286,
+
 
 [m n] = size(X);  % number of design sites and their dimension
 MInput = mean(X);   SInput= std(X); 
