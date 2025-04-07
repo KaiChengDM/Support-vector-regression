@@ -1,4 +1,4 @@
-# Bayesian Support-vector-regression
+Matlab package of Bayesian Support-vector-regression
 
 Based on paper: Kai Cheng, Zhenzhou Lu, Adaptive Bayesian support vector regression model for structural reliability analysis,
 
